@@ -8,12 +8,12 @@ hooks:
     - location: scripts/stop_server.sh
       timeout: 180
       
+ BeforeInstall:
+  - location: scripts/install_dependencies.sh
+    timeout: 180    
+    
 AfterInstall:
   - location: scripts/after_install.sh
-    timeout: 180
-    
-BeforeInstall:
-  - location: scripts/install_dependencies.sh
     timeout: 180
     
 ApplicationStart:
