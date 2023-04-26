@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home
-sudo yum -y install npm
+sudo npm -y install 
