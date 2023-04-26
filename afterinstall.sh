@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home
-sudo npm -y install 
+sudo systemctl npm -y install 
