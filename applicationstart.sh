@@ -7,4 +7,4 @@ cd /home
 
 sudo npm install -g node-inspector
 node --inspect demo_server.js
-node --debug app.js
+node --debug demo_server.js
