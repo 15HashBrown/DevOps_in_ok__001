@@ -5,4 +5,6 @@ cd /home
 
 #node --inspect app.js
 
+sudo npm install -g node-inspector
 node --inspect demo_server.js
+node --debug app.js
