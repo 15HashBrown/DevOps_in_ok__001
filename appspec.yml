@@ -4,6 +4,9 @@ files:
   - source: /
     destination: /home/
 hooks:
+  ApplicationStop:
+    - location: stop_server.sh
+      timeout: 300
   AfterInstall:
     - location: afterinstall.sh
       timeout: 300
