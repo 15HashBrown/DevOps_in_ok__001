@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#cd /home
+cd /home
 #sudo pm2 -y start server.js
 
 #node --inspect app.js
