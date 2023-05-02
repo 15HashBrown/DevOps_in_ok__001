@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd /home
 cd /home/ec2-user
 node --inspect demo_server.js
 
