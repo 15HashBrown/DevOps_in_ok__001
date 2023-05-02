@@ -11,4 +11,4 @@ sudo yum install -y gcc-c++ make
 sudo yum install -y nodejs --skip-broken
 
 #安裝app.js程式所需module
-sudo npm install express
+#sudo npm install express
