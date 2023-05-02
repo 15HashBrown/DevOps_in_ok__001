@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ec2-user
+#cd /home/ec2-user
 node --inspect demo_server.js
 
 #sudo pm2 -y start server.js
