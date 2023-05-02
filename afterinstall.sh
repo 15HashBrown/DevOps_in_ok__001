@@ -7,8 +7,11 @@ cd /home
 
 sudo yum install -y gcc-c++ make 
 #curl -sL https://rpm.nodesource.com/setup_18.x | sudo -E bash - 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install 16
 
-sudo yum install -y nodejs --skip-broken
+#sudo yum install -y nodejs --skip-broken
 
 #安裝app.js程式所需module
 #sudo npm install express
