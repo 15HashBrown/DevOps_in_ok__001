@@ -5,12 +5,12 @@ files:
     destination: /home/
 hooks:
   ApplicationStop:
-    - location: scripts/stop_nodeserver.sh
+    - location: stop_server.sh
       timeout: 300
   AfterInstall:
     - location: afterinstall.sh
       timeout: 300
   ApplicationStart:
-    - location: scripts/applicationstart.sh
+    - location: applicationstart.sh
       timeout: 180
      
