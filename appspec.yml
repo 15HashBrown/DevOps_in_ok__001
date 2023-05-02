@@ -4,9 +4,9 @@ files:
   - source: /
     destination: /home/
 hooks:
-  BeforeInstall:
-    - location: before_install.sh
-      timeout: 300
+  #BeforeInstall:
+    #- location: before_install.sh
+      #timeout: 300
   ApplicationStop:
     - location: stop_server.sh
       timeout: 300      
